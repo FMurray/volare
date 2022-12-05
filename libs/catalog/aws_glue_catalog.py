@@ -1,2 +1,0 @@
-class AWSGlueCatalog():
-    pass

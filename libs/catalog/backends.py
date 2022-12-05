@@ -1,6 +1,11 @@
-def AWSGlueCatalogBackend(**kwargs):
+class AWSGlueCatalog(**kwargs):
     """
     AWS Glue Catalog Backend
     """
-    from .aws_glue_catalog import AWSGlueCatalog
-    return AWSGlueCatalog(**kwargs)
+    pass
+
+class S3Storage(**kwargs):
+    """
+    S3 Storage Backend
+    """
+    pass

@@ -10,3 +10,7 @@ class Catalog():
         table = CatalogTable(table_name)
         self.tables.add(table)
         return table
+
+
+class Storage():
+    pass
